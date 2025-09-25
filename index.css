@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: tahoma;
+}
+.main-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+.lists{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+.lists li a{
+  text-decoration: none;
+  color: dimgray;
+  transition: 1s ease-in-out black;
+}
+.lists li a:hover{
+  color: black;
+}
+.box1{
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+  width: 70px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.box1:hover{
+  scale: 1.1;
+}
+.box2:hover{
+  scale: 1.1;
+}
+.box2{
+  background-color: rgb(38, 190, 38);
+  height: 30px;
+  width: 70px;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.dropdown{
+  border: 0;
+  color: dimgray;
+}
+.dropdown:hover{
+  color: black;
+}
+.container1{
+  background-image: url(https://media.freestocktextures.com/cache/f5/4a/f54a6f682ef3fd373f7da24e0f42b0c8.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 450px;
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  background-blend-mode: lighten;
+}
+.p1{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: start;
+  width: 450px;
+}
+.p2{
+  color:whitesmoke;
+  font-size: 15px;
+  text-align: start;
+  width: 450px;
+}
+.para{
+  padding: 90px 0;
+}
+.form{
+  background-color: white;
+  width: 400px;
+  height: 350px;
+  margin: 50px 0;
+}
+
+.r1{
+  display: flex;
+  gap: 20px;
+  margin: 20px 30px;
+}
+.input{
+  background-color:whitesmoke;
+  border: 0;
+  height: 20px;
+  padding: 0px 30px;
+  width: 100px;
+  outline: none;
+}
+
+.Message{
+  margin: 0 30px;
+}
+.input2{
+  background-color: whitesmoke;
+  border: 0;
+  height: 40px;
+  padding: 10px 30px;
+  width: 280px;
+  outline: none;
+}
+.button{
+  background-color: rgb(1, 105, 241);
+  color: white;
+  border: 0;
+  height: 30px ;
+  width: 150px;
+  cursor: pointer;
+}
+.button:hover{
+  scale: 1.1;
+}
+.content{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  
+}
+.container2 img{
+  height: 55px;
+  width: 55px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 70px 0;
+}
+
+.i1{
+  border: 0;
+  height: 150px;
+  width: 250px;
+}
+.p3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: tahoma;
+}
+.p4{
+  font-size: 14px;
+  color: dimgray;
+  text-align: center;
+  width: 245px;
+}
+.img1{
+  text-align: center;
+}
+.container3{
+  width: 100%;
+} 
+.container3 img{
+  height: 350px;
+  width: 760px;
+} 
+.row1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.p5{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: start;
+  font-family: tahoma;
+}
+.p6{
+  text-align: start;
+}
+.one{
+  padding: 150px 0px 100px 100px;
+  
+}
+.container4{
+  width: 100%;
+  background-color: whitesmoke;
+}
+.p7{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  font-family: tahoma;
+}
+.p8{
+  color: dimgray;
+  text-align: center;
+  font-size: 20px;
+}
+.circle img{
+  border-radius: 90%;
+  height: 100px;
+  width: 100px;
+}
+.pro1{
+  border:0;
+  background-color: white;
+  height: 150px;
+  width: 400px;
+  display: flex;
+  cursor: pointer;
+  transition: 1s;
+}
+.pro1:hover{
+  scale: 1.1;
+}
+.content1{
+  padding: 25px 0px 30px 30px;
+}
+.p9{
+  font-family: tahoma;
+  font-weight: bold;
+}
+.span{
+  color: rgb(1, 105, 241);
+}
+.p9content{
+  font-size: 12px;
+}
+.circle{
+  padding: 20px 0px 20px 10px;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+.a1{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(1, 105, 241);
+  color: white;
+  font-family: tahoma;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.arrows{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+.a1:hover{
+  scale: 1.1;
+}
+.container5{
+  width: 100%;
+  background-image: url(https://cdn.theatlantic.com/thumbor/77FMxJGfMpkM-FcZIiGHyH8mqec=/845x470:2635x1477/960x540/media/img/mt/2016/03/RTX283V4/original.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 200px;
+}
+.container5 p{
+  color: white;
+  font-size: 20px;
+}
+.b{
+  height: 30px;
+  width: 350px;
+  padding-left: 20px;
+}
+.sb{
+  background-color: rgb(1, 105, 241);
+  color: white;
+  height: 35px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.sb:hover{
+  scale: 1.1;
+}
+.ebox{
+  text-align: center;
+}
+.container6{
+  width: 100%;
+  background-color: antiquewhite;
+  
+}
+.nav li a{
+  text-decoration:none;
+  color: rgb(1, 105, 241);
+}
+.nav{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.media img{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.media img:hover{
+  scale: 1.1;
+}
+.media{
+  display: flex;
+  gap: 30px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 600px;
+  padding-top: 50px;
+}
+.copyright{
+  padding-left: 230px;
+}
+
+
+
+
+@media screen and (max-width:500px){
+  .logo{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: tahoma;
+  }
+  .main-div{
+    
+    
+  }
+  .lists{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+  }
+  
+}
+@media only screen
+and (min-device-width:501px)
+and (max-device-width:1024px){
+  .logo{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: tahoma;
+  }
+  .main-div{
+    
+    
+  }
+  .lists{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+  }
+}
