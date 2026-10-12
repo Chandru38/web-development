@@ -327,43 +327,166 @@
   padding-left: 230px;
 }
 
+/* ================= TABLET (up to 1024px) ================= */
+@media screen and (max-width: 1024px) {
+  .main-div { margin: 10px 20px; }
+  .content { gap: 30px; }
 
+  .container3 .one { flex: 1; padding: 60px 20px 60px 40px; }
+  .container3 .two { flex: 1; }
+  .container3 img { width: 100%; height: auto; }
 
-
-@media screen and (max-width:500px){
-  .logo{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: tahoma;
-  }
-  .main-div{
-    
-    
-  }
-  .lists{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    align-items: center;
-  }
-  
+  .footer { gap: 200px; }
+  .copyright { padding-left: 0; text-align: center; }
 }
-@media only screen
-and (min-device-width:501px)
-and (max-device-width:1024px){
-  .logo{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: tahoma;
+
+/* ================= SMALL TABLET / LARGE PHONE (up to 850px) ================= */
+@media screen and (max-width: 850px) {
+  html, body { overflow-x: hidden; }
+
+  /* Header */
+  .main-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 15px;
   }
-  .main-div{
-    
-    
+  .lists {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
   }
-  .lists{
-    display: flex;
+
+  /* Hero section: stack text and form */
+  .container1 {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
-    list-style: none;
+  }
+  .para {
+    padding: 20px 20px 0;
+  }
+  .p1, .p2 {
+    width: 100%;
+    max-width: 450px;
+  }
+  .form {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 0 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Feature icons */
+  .icons {
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+  .i1 {
+    height: auto;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  /* Alternating image/text rows: stack them */
+  .row1 {
+    flex-direction: column;
     align-items: center;
   }
+  .container3 .one {
+    padding: 30px 20px 10px;
+    text-align: center;
+  }
+  .p5, .p6 { text-align: center; }
+  .container3 .two {
+    width: 90%;
+    flex: none;
+  }
+  .container3 img { width: 100%; height: auto; }
+
+  /* Testimonials */
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pro1 {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+  }
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .copyright {
+    padding: 20px 10px;
+    text-align: center;
+  }
+}
+
+/* ================= PHONE (up to 600px) ================= */
+@media screen and (max-width: 600px) {
+  .logo { font-size: 22px; }
+
+  .p1 { font-size: 26px; }
+  .p2 { font-size: 14px; }
+
+  /* Form: one field per row, fluid widths */
+  .r1 {
+    flex-direction: column;
+    gap: 0;
+    margin: 10px 20px;
+  }
+  .input,
+  .input2 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .input { padding: 0 15px; }
+  .input2 { padding: 10px 15px; }
+  .Message { margin: 0 20px; }
+
+  .p7 { font-size: 22px; padding: 30px 15px 0; }
+  .p8 { font-size: 16px; padding: 0 15px; text-align: center; }
+
+  .pro1 { flex-direction: column; align-items: center; text-align: center; }
+  .content1 { padding: 0 15px 20px; }
+
+  /* Signup banner */
+  .container5 {
+    height: auto;
+    background-size: cover;
+    padding: 20px 0 30px;
+  }
+  .b {
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  .sb { width: 100px; }
+}
+
+/* ================= SMALL PHONES (up to 400px) ================= */
+@media screen and (max-width: 400px) {
+  .p1 { font-size: 22px; }
+  .box1, .box2 { width: 60px; font-size: 12px; }
+  .lists { gap: 8px; }
+  .i1 { width: 90%; }
+  .p4 { width: 100%; }
 }
